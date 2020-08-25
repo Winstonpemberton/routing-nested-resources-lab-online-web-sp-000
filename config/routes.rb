@@ -4,7 +4,4 @@ Rails.application.routes.draw do
   # nested resource for posts
   resources :songs, only: [:show, :index]
 end
-
-  resources :artists
-  resources :songs
 end
